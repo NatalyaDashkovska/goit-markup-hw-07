@@ -1,0 +1,151 @@
+.footer {
+  background-color: var(--footer-bg-colour);
+  color: var(--primary-white-colour);
+  display: flex;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer .logo {
+  padding-bottom: 20px;
+  justify-items: flex-start;
+
+  padding-top: 0px;
+}
+.footer .container {
+  display: flex;
+}
+
+.logo-span-footer {
+  color: var(--primary-white-colour);
+  font-family: Raleway, serif;
+  font-size: 26px;
+  line-height: 1.19;
+  font-weight: 700;
+  text-decoration: none;
+}
+.footer .link {
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+
+  margin-top: 9px;
+}
+
+.adress {
+  padding-bottom: 60px;
+  width: 231px;
+  margin-right: 70px;
+}
+
+.header {
+  outline: 1px solid #ececec;
+}
+
+.footer-invite {
+  width: 206px;
+  height: 80px;
+  display: block;
+}
+.footer-icon-list {
+  display: flex;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  justify-content: start;
+}
+
+.footer-social-icon {
+  margin-right: 10px;
+  width: 44px;
+  height: 44px;
+}
+.footer-invite-title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: var(--primary-white-colour);
+
+  margin-bottom: 20px;
+}
+.footer-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-social-link:hover {
+  background-color: var(--accent-colour);
+}
+
+.mail-send {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+}
+.letter-button {
+  display: flex;
+  align-items: center;
+  padding-left: 29px;
+  background-color: var(--accent-colour);
+  color: var(--primary-white-colour);
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  border: none;
+}
+.mail-input {
+  height: 48px;
+  width: 358px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  padding: 0 20px;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.6);
+}
+.mail-title {
+  color: var(--primary-white-colour);
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  margin-top: 0px;
+}
+.footer-invite-mail {
+  display: block;
+  margin-top: 12px;
+}
+
+.footer-mg:not(:last-child) {
+  margin-right: 70px;
+}
+.icon-plane {
+  height: 24px;
+  padding-right: 13px;
+  padding-left: 10px;
+  fill: var(--primary-white-colour);
+  /* background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; */
+}
+
+.mail-mg {
+  padding-right: 12px;
+}

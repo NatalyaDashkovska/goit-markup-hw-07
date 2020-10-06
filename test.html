@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <form>
+      <!-- Клик по тексту "Сообщение" поставит курсор в поле ввода -->
+      <label>
+        Сообщение
+        <input type="text" />
+      </label>
+
+      <button type="submit">Отправить</button>
+    </form>
+    <div class="footer">
+      <div class="container">
+          <defs>
+                          <svg class="icon-plane">
+                            <use href="./sprite-form.svg#icon-plane"></use>
+                          </svg>
+      </div>
+    </div>
+
+    <form>
+      <!-- Клик по тексту "Сообщение" поставит курсор в поле ввода -->
+      <label for="message">Сообщение</label>
+      <input type="text" id="message" />
+
+      <button type="submit">Отправить</button>
+    </form>
+    <input type="text" name="message" placeholder="Введите сообщение" />
+    <form>
+      <label>
+        Почта
+        <input type="email" name="email" />
+      </label>
+
+      <label>
+        Пароль
+        <input type="password" name="pwd" />
+      </label>
+    </form>
+    <div role="group">
+      <p>Выберите цвет футболки:</p>
+
+      <label for="color-1">Красный</label>
+      <input id="color-1" name="color" type="radio" value="red" checked />
+
+      <label for="color-2">Белый</label>
+      <input id="color-2" name="color" type="radio" value="white" />
+
+      <label for="color-3">Зелёный</label>
+      <input id="color-3" name="color" type="radio" value="green" />
+    </div>
+    <div role="group">
+      <p>Чем вы увлекаетесь?:</p>
+
+      <label for="hobby-1">Музыка</label>
+      <input id="hobby-1" name="hobby" type="checkbox" value="music" />
+
+      <label for="hobby-2">Спорт</label>
+      <input id="hobby-2" name="hobby" type="checkbox" value="sports" />
+
+      <label for="hobby-3">Чтение</label>
+      <input id="hobby-3" name="hobby" type="checkbox" value="reading" />
+    </div>
+    <label for="age">Возраст</label>
+
+    <input id="age" type="number" name="age" />
+    <label for="age">Возраст</label>
+    <input id="age" type="range" name="age" min="0" max="120" value="30" />
+    <input type="file" дополнительные-атрибуты />
+
+    <label for="birth_date">Дата рождения</label>
+    <input
+      id="birth_date"
+      name="birth_date"
+      type="date"
+      min="1920-01-01"
+      max="2020-01-01"
+    />
+
+    <label for="color">Цвет</label>
+
+    <input id="color" name="color" type="color" />
+
+    <textarea
+      name="comment"
+      rows="5"
+      cols="45"
+      placeholder="Оставьте комментарий"
+    ></textarea>
+  </body>
+</html>
+
+<svg
+  aria-hidden="true"
+  style="position: absolute; width: 0; height: 0; overflow: hidden"
+  version="1.1"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+
+<div>
+  <div>
+
+  </div>
+</div>
