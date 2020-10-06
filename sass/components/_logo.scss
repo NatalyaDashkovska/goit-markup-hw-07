@@ -1,0 +1,29 @@
+.logo {
+  color: var(--accent-colour);
+  font-family: Raleway, serif;
+  font-size: 26px;
+  line-height: 1.19;
+  font-weight: 700;
+  text-decoration: none;
+
+  display: flex;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  justify-items: flex-start;
+}
+.logo-span {
+  color: var(--title-colour);
+  font-family: Raleway, serif;
+  font-size: 26px;
+  line-height: 1.19;
+  font-weight: 700;
+  text-decoration: none;
+}
+.logo-span-footer {
+  color: var(--primary-white-colour);
+  font-family: Raleway, serif;
+  font-size: 26px;
+  line-height: 1.19;
+  font-weight: 700;
+  text-decoration: none;
+}
