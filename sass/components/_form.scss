@@ -1,29 +1,3 @@
-.border {
-  position: relative;
-}
-.border .title {
-  position: absolute;
-
-  width: 100%;
-  height: 70px;
-  /* outline: 1px solid red; */
-  background: rgba(47, 48, 58, 0.8);
-
-  font-family: Roboto;
-
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 16px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  margin: 0;
-  padding-top: 27px;
-  color: var(--primary-white-colour);
-
-  transform: translateY(-100%);
-}
-
 .backdrop {
   position: fixed;
   left: 0;
