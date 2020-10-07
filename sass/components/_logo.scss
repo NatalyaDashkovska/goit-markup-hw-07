@@ -1,5 +1,5 @@
 .logo {
-  color: var(--accent-colour);
+  color: $accentcolour;
   font-family: Raleway, serif;
   font-size: 26px;
   line-height: 1.19;
@@ -12,7 +12,7 @@
   justify-items: flex-start;
 }
 .logo-span {
-  color: var(--title-colour);
+  color: $titlecolour;
   font-family: Raleway, serif;
   font-size: 26px;
   line-height: 1.19;
@@ -20,7 +20,7 @@
   text-decoration: none;
 }
 .logo-span-footer {
-  color: var(--primary-white-colour);
+  color: $primarywhitecolour;
   font-family: Raleway, serif;
   font-size: 26px;
   line-height: 1.19;

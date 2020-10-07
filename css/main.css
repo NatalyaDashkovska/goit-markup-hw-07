@@ -1,6 +1,6 @@
 @charset "UTF-8";
 .logo {
-  color: var(--accent-colour);
+  color: #2196f3;
   font-family: Raleway, serif;
   font-size: 26px;
   line-height: 1.19;
@@ -15,7 +15,7 @@
 }
 
 .logo-span {
-  color: var(--title-colour);
+  color: #212121;
   font-family: Raleway, serif;
   font-size: 26px;
   line-height: 1.19;
@@ -24,7 +24,7 @@
 }
 
 .logo-span-footer {
-  color: var(--primary-white-colour);
+  color: #ffffff;
   font-family: Raleway, serif;
   font-size: 26px;
   line-height: 1.19;
@@ -124,6 +124,20 @@ body {
   list-style: none;
 }
 
+.envelope {
+  height: 12px;
+  width: 16px;
+}
+
+.smartphone {
+  height: 16px;
+  width: 10px;
+}
+
+.header {
+  outline: 1px solid #ececec;
+}
+
 .main-nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -133,10 +147,19 @@ body {
           align-items: center;
 }
 
-/* site nav */
-.site-nav .link,
-.auth-nav .link {
-  color: var(--title-colour);
+.site-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: flex-start;
+  margin-left: 93px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.site-nav .link {
+  color: #212121;
   letter-spacing: 0.02em;
   font-weight: 500;
   font-size: 14px;
@@ -153,73 +176,17 @@ body {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link-icon {
-  fill: var(--text-colour);
-  margin-right: 10px;
-  -webkit-transition-property: fill;
-  transition-property: fill;
-  -webkit-transition-duration: 250ms;
-          transition-duration: 250ms;
-  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.auth-nav .link:hover .link-icon {
-  fill: var(--accent-colour);
-}
-
-.envelope {
-  height: 12px;
-  width: 16px;
-}
-
-.smartphone {
-  height: 16px;
-  width: 10px;
-}
-
-.site-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  justify-items: flex-start;
-  margin-left: 93px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.auth-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  justify-items: flex-end;
-  margin-left: auto;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
 .site-nav .item:not(:last-child) {
   margin-right: 50px;
 }
 
-.auth-nav .item + .item {
-  margin-left: 47px;
-}
-
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: var(--accent-colour);
-}
-
-.auth-nav .link:hover,
-.auth-nav .link:focus {
-  color: var(--accent-colour);
+  color: #2196f3;
 }
 
 .site-nav .link.current {
-  color: var(--accent-colour);
+  color: #2196f3;
   position: relative;
   padding-bottom: 32px;
   padding-top: 33px;
@@ -237,8 +204,57 @@ body {
   border-radius: 2px;
 }
 
-.header {
-  outline: 1px solid #ececec;
+.auth-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: flex-end;
+  margin-left: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.auth-nav .link {
+  color: #212121;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+  display: block;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.auth-nav .link-icon {
+  fill: #757575;
+  margin-right: 10px;
+  -webkit-transition-property: fill;
+  transition-property: fill;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.auth-nav .item + .item {
+  margin-left: 47px;
+}
+
+.auth-nav .link:hover .link-icon {
+  fill: #2196f3;
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: #2196f3;
 }
 
 .button {
