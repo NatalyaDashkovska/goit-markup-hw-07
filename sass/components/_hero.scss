@@ -1,22 +1,3 @@
-.hero {
-  background-color: rgba(47, 48, 58, 0.1);
-  background-image: linear-gradient(
-      to left,
-      rgba(47, 48, 58, 0.1),
-      rgba(47, 48, 58, 0.1)
-    ),
-    url(../images/фон.jpg);
-
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  text-align: center;
-  max-width: 1600px;
-  height: 600px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .hero-title {
   color: $primarywhitecolour;
   font-weight: 900;
@@ -34,8 +15,8 @@
   background-color: rgba(47, 48, 58, 0.1);
   background-image: linear-gradient(
       to left,
-      rgba(47, 48, 58, 0.1),
-      rgba(47, 48, 58, 0.1)
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
     ),
     url(../images/фон.jpg);
   background-repeat: no-repeat;
