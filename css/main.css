@@ -644,18 +644,13 @@ body {
   text-align: center;
 }
 
-.permanent-clients {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.permanent-clients-flex {
+.clients {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.permanent-clients-li {
+.clients .item {
   width: 170px;
   height: 90px;
   border: 1px solid #afb1b8;
@@ -680,7 +675,7 @@ body {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.permanent-clients {
+.clients .client {
   fill: #afb1b8;
   -webkit-transition-property: fill;
   transition-property: fill;
@@ -688,6 +683,15 @@ body {
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.clients .item:hover .client {
+  fill: #2196f3;
+}
+
+.clients .item:hover {
+  background-color: #ffffff;
+  border: 1px solid #2196f3;
 }
 
 .logo5 {
@@ -712,15 +716,6 @@ body {
 
 .logo6 {
   width: 89px;
-}
-
-.permanent-clients-li:hover .permanent-clients {
-  fill: var(--accent-colour);
-}
-
-.permanent-clients-li:hover {
-  background-color: #ffffff;
-  border: 1px solid var(--accent-colour);
 }
 
 .portfolio-nav .button {
